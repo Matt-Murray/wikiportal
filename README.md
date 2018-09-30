@@ -2,6 +2,8 @@
 
 This is a web app that turns the user's search query into the 10 most relevant Wikipedia articles built with Node.js, Express, EJS, CSS, and the MediaWiki API.
 
+![screenshot](https://imgur.com/mJeEdIt.png)
+
 ## Setup and Installation
 
 You will need to have `node.js` installed globally on your machine.
@@ -16,6 +18,8 @@ $ npm start
 To visit app:
 
 `localhost:8080`
+
+![screenshot](https://imgur.com/iawmtxx.png)
 
 ## Reflection
 
