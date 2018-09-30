@@ -1,22 +1,22 @@
+# The Wikiportal
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+This is a web app that turns the user's search query into the 10 most relevant Wikipedia articles built with Node.js, Express, EJS, CSS, and the MediaWiki API.
 
+## Setup and Installation
 
-Welcome to your Node.js project on Cloud9 IDE!
+You will need to have `node.js` installed globally on your machine.
+```
 
-This chat example showcases how to use `socket.io` with a static `express` server.
+$ git clone https://github.com/Matt-Murray/wikiportal.git
+$ cd wikiportal
+$ npm install
+$ npm start
+```
 
-## Running the server
+To visit app:
 
-1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
+`localhost:8080`
 
-2) Alternatively you can launch the app from the Terminal:
+## Reflection
 
-    $ node server.js
-
-Once the server is running, open the project in the shape of 'https://projectname-username.c9users.io/'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.
+This project was originally created in vanilla JavaScript as part of FreeCodeCamp's JavaScript curriculum, but I recently decided to rebuild it in Node.js. Through this project I was able to hone my skills in routing with Express, get and push requests with EJS, and using HTTP requests to dynamically influence the UI. 
