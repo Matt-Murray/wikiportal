@@ -21,7 +21,7 @@ app.post("/search", function(req, res){
                 console.log(error);
             } else {
                 if(response.statusCode == 200) {
-                    console.log("General Kenobi");
+                    console.log("Search successful");
                 }
             }
             
