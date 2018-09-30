@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const request = require("request");
 const bodyParser = require("body-parser");
+const port = process.env.PORT || 8080;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -44,6 +45,6 @@ app.get("/", function(req, res){
                 res.render("index.ejs", {results, hideOrbs});
 });
 
-app.listen(process.env.PORT, process.env.IP, function(){
-    console.log("hello there");
+app.listen(port, function(){
+    console.log("server is listening on port ${port}");
 });
