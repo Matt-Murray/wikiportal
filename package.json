@@ -2,7 +2,7 @@
   "name": "wikiportal",
   "version": "1.0.0",
   "description": "A tool to search Wikipedia and append results to the main page, or find a random article",
-  "main": "server.js",
+  "main": "app.js",
   "author": "Matt Murray",
   "dependencies": {
     "async": "~0.2.8",
@@ -13,7 +13,7 @@
     "socket.io": "~0.9.14"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "devDependencies": {},
   "keywords": [
