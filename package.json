@@ -1,7 +1,7 @@
 {
   "name": "wikiportal",
   "version": "1.0.0",
-  "description": "A tool to search Wikipedia and append results to the main page, or find a random article",
+  "description": "A tool to search Wikipedia and append results to the main page, or find a random Wikipedia article",
   "main": "app.js",
   "author": "Matt Murray",
   "dependencies": {
